@@ -16,10 +16,13 @@ function scr_colisao_blocos(){
 
 function scr_sorteio_powerup()
 {
+	randomize();
+	
 	var sorteio = irandom(9);
 	
 	if (sorteio == 9)
 	{
 		instance_create_layer(x, y, "itens", obj_item_powerup);
+		audio_play_sound(snd_item_power_up, 10, false);
 	}
 }

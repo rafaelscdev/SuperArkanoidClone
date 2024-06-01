@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_activate_power_up",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.540363,
+  "name":"snd_activate_power_up",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_activate_power_up.ogg",
+  "type":0,
+  "volume":0.6,
+}
